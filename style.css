@@ -293,15 +293,18 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    
 }
 .services .serv-content .card:hover{
+    transform: scale(1.08);
     background: #5F4B8B;
+    
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
-    transform: scale(1.10);
+    transform: scale(1.02);
 }
 .services .serv-content .card i{
     font-size: 50px;
@@ -320,7 +323,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what I'll know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
